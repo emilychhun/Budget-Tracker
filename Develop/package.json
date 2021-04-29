@@ -1,0 +1,23 @@
+{
+  "name": "develop",
+  "version": "1.0.0",
+  "description": "<h1 align=\"center\">✌️🤟🙏👋  Budget Tracker  ✌️🤟🙏👋</h1>\r <h1 align=\"center\">",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.6",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.36.1",
+    "webpack-cli": "^4.6.0"
+  }
+}
