@@ -19,7 +19,7 @@ const FILES_TO_CACHE = [
     "/icons/icon-384x384.png",
     "/icons/icon-512x512.png"
 ];
-
+//install the service worker
   self.addEventListener('install', function (e) {
     e.waitUntil(
       caches.open(CACHE_NAME).then(function (cache) {
@@ -28,8 +28,7 @@ const FILES_TO_CACHE = [
       })
     )
   })
-
-  // Delete outdated caches
+//activate the Service worker
   self.addEventListener('activate', function(e) {
     e.waitUntil(
       caches.keys().then(function(keyList) {
