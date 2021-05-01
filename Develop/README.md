@@ -14,7 +14,7 @@
   
   🔍This challenge is to build the front end and back end for budget Tracker application. This budget Tracker allows users a fast and easy way to track their money.  Not only this, it allows users to access that information such as add expenses and deposits to their budget with or without connection.  
 
-*Check out the [ExampleREADME.md](https://github.com/emilychhun/Budget-Tracker/blob/main/README.md) as an example.*
+*Check out the [ExampleREADME.md](https://github.com/emilychhun/Budget-Tracker/blob/main/Develop/README.md) as an example.*
   <br />
  
   ## Table of contents
